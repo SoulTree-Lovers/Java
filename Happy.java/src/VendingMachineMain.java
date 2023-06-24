@@ -10,5 +10,8 @@ public class VendingMachineMain {
 
         String product = vm1.pushProductButton(100);
         System.out.println(product);
+
+        VendingMachine.printVersion(); // static method는 인스턴스를 생성하지 않아도 사용 가능하다.
+        vm1.printVersion(); // 인스턴스에서도 사용이 가능하다! (바람직한 방법은 아니다)
     }
 }

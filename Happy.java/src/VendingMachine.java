@@ -11,6 +11,9 @@ public class VendingMachine {
         return "콜라";
     }
 
+    public static void printVersion(){
+        System.out.println("v1.0");
+    }
 
 
 }
